@@ -1,3 +1,5 @@
+probably the first accurate Splatoon voice filter!
+
 # Coming Soon! (But you can still test it!)
 
 Coming Soon! I just need to figure out how to get it off my computer... and the whole *user friendly* thing too, but yk lol
