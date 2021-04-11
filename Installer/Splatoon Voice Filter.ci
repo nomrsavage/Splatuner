@@ -3,7 +3,7 @@
    <autoclose >1</>
    <compname >okmrsavage</>
    <produrl >https://github.com/okmrsavageYT/Splatuner/</>
-   <ver >0.0.1</>
+   <ver >0.0.2.0</>
    <supurl >https://github.com/okmrsavageYT/Splatuner/discussions</>
    <updurl >https://github.com/okmrsavageYT/Splatuner/releases</>
    <dlgfont >arial</>
@@ -177,7 +177,7 @@ CLOSED ALPHA DISTRIBUTION: IF FOUND RETURN TO OKMRSAVAGE OR DELETE THE FILE IMME
                         <shpath >comdesk</>
                         <shfile >Splatuner</>
                         <path >inst</>
-                        <file >Splatuner\Tools\Vox\Splatoon Voice Filter.bat</>
+                        <file >Splatuner\Executables\Splatuner Terminal.bat</>
                         <icon >D:\Splatuner\Icons\iconmain.ico</>
                         <cmdline ></>
                         <comment ></>
@@ -583,7 +583,7 @@ CLOSED ALPHA DISTRIBUTION: IF FOUND RETURN TO OKMRSAVAGE OR DELETE THE FILE IMME
    <upexe >update.exe</>
    <upurl ></>
    <upxml >update.ini</>
-   <upredir >https://github.com/fart-source/Splatoon-Voice-Filter/releases/latest/</>
+   <upredir >https://github.com/okmrsavageYT/Splatuner/releases</>
    <ignnotfound >0</>
    <tozip >0</>
    <zipfile ></>
