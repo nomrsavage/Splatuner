@@ -1,6 +1,7 @@
 probably the first accurate Splatoon voice filter!
 
 THIS IS NOWHERE NEAR FINISHED AND ONLY HALF OF THE EFFECTS ARE ACTUALLY IN THIS VERSION SO EXPECT IT TO SOUND BAD
+(0.0.3 has all effects, but are not tuned. More may be added.)
 
 # Coming Soon! (But you can still test it!)
 
