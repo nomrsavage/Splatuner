@@ -5,6 +5,8 @@ rem lol you really tried that hard to get the source code. I mean, why? what twi
 @echo off
 cls
 
+:initialize
+
 echo initializing...
 echo.
 
@@ -14,17 +16,21 @@ title Splatuner
 rem i tried to get rid of the "Administrator:" but i couldn't lol
 net session >nul 2>&1
     if %errorLevel% == 0 (
+
         echo Elevation requirements met.
+    
     ) else (
+
     	cls
         echo ERROR: Elevation requirements not met. Try right clicking and run as administrator?
 		pause
 		exit
+    
     )
 
 
 cd C:\
-mkdir Temp
+mkdir temp
 cd %~dp0
 
 rem this is for vox
@@ -38,6 +44,13 @@ rem user input
 rem input/output directory im too tired to make a joke
 echo Please define the I/O location (ex: C:\temp\) SPACES WILL RESULT IN A SYNTAX ERROR (for now)
 set /p I/OLocation=">"
+if "%I/OLocation%"=="debug" (
+
+	set debug=1
+	goto :initialize
+
+	)
+
 
 rem wait what am i even supposed to proccesss... i cant spell...
 echo Please define the input name or type rec to record (ex: scream.wav)
@@ -57,15 +70,40 @@ set MasterOutput="%I/OLocation%%OutputLocation%"
 rem check if recorded if so change master input location to the recorded audio defined after recording
 if "%rec%"=="true" set MasterInput=%InputLocation%
 
-rem proccess audio
+rem proccess audio AKA mr krab's secret recipe to drowning kid noises
 
 sox %MasterInput% C:\temp\audio1.wav highpass 120
 sox C:\temp\audio1.wav C:\temp\audio2.wav pitch 468
 sox C:\temp\audio2.wav C:\temp\audio1.wav phaser 1 4 5 0.6 1 -t
-sox C:\temp\audio1.wav C:\temp\final.wav norm -19
+sox C:\temp\audio1.wav C:\temp\audio2.wav norm -19
+sox C:\temp\audio2.wav C:\temp\audio1.wav tremolo 20 35
+sox C:\temp\audio1.wav C:\temp\final.wav flanger 3 6 63 3
 
 sox C:\temp\final.wav %MasterOutput%
 copy C:\temp\audio_raw.wav %I/OLocation%
+
+
+rem clean up, clean up, everybody cleanup...
+
+if not "%debug%"=="1" (
+
+	del C:\temp\audio_raw.wav
+	del C:\temp\audio1.wav
+	del C:\temp\audio2.wav
+	del C:\temp\final.wav
+	
+	) else (
+
+	if "%debug%"=="1" (
+
+		echo debug enabled - canceling cleanup
+
+		) else (
+
+			goto :INTERNALERROR
+
+		)
+
 
 
 exit
@@ -92,6 +130,14 @@ set InputLocation="C:\temp\audio_raw.wav"
 
 goto :postrec
 
+
+
+:INTERNALERROR
+
+rem lol big windows oof go brrr
+echo INTERNAL ERROR
+pause
+exit
 
 
 
