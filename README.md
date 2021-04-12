@@ -18,3 +18,10 @@ This is an accurate voice changer that uses ACTUAL RESEARCH (woah) and EXPERIMEN
 Current version only includes inklings, (octolings coming soon) and the inkling girl is less developed. (due to lack of voice samples, im a boi so if any of you gorls wanna help u can dm me a clip of you singing or reading the bee movie script (also please dont curse or anything of the sort, i would really appreciate it))
 
 woah thats the most parentheses ive ever used
+
+
+# Special thanks:
+
+Alpha testers:
+
+  Jachar7543
