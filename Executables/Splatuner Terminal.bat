@@ -46,10 +46,19 @@ echo Please define the I/O location (ex: C:\temp\) SPACES WILL RESULT IN A SYNTA
 set /p I/OLocation=">"
 if "%I/OLocation%"=="debug" (
 
-	set debug=1
-	goto :initialize
+	if not "%debug%"=="true" (
+	
+		set debug=true
+		goto :initialize
 
-	)
+		) else (
+
+			echo debug mode already enabled!
+			pause
+			goto :initialize
+
+		)
+)
 
 
 rem wait what am i even supposed to proccesss... i cant spell...
@@ -75,17 +84,25 @@ rem proccess audio AKA mr krab's secret recipe to drowning kid noises
 sox %MasterInput% C:\temp\audio1.wav highpass 120
 sox C:\temp\audio1.wav C:\temp\audio2.wav pitch 468
 sox C:\temp\audio2.wav C:\temp\audio1.wav phaser 1 4 5 0.6 1 -t
-sox C:\temp\audio1.wav C:\temp\audio2.wav norm -19
+sox C:\temp\audio1.wav C:\temp\audio2.wav norm -15
 sox C:\temp\audio2.wav C:\temp\audio1.wav tremolo 20 35
 sox C:\temp\audio1.wav C:\temp\final.wav flanger 3 6 63 3
 
 sox C:\temp\final.wav %MasterOutput%
-copy C:\temp\audio_raw.wav %I/OLocation%
+
+
+rem so i recorded and i want the before and after so i can put it on tiktok, but i have the after. give me the before!!!1!11!!1!
+
+if "%rec%"=="true" (
+
+	copy C:\temp\audio_raw.wav %I/OLocation%
+
+	)
 
 
 rem clean up, clean up, everybody cleanup...
 
-if not "%debug%"=="1" (
+if not "%debug%"=="true" (
 
 	del C:\temp\audio_raw.wav
 	del C:\temp\audio1.wav
@@ -94,18 +111,20 @@ if not "%debug%"=="1" (
 	
 	) else (
 
-	if "%debug%"=="1" (
+	if "%debug%"=="true" (
 
 		echo debug enabled - canceling cleanup
+		pause
 
 		) else (
 
 			goto :INTERNALERROR
 
+			)
 		)
 
 
-
+pause
 exit
 echo wait your not supposed to see this! close this window before it damages your files!!
 timeout 99999 /nobreak

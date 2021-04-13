@@ -1,0 +1,60 @@
+
+Processing D:\Splatuner\Installer\Splatoon Voice Filter.ci 4/13/2021 12:01:10 PM
+Log file: D:\Splatuner\Installer\Splatoon Voice Filter.log 
+Generating Sources... 
+Compiling Gentee Sources... 
+Build setup file: D:\Splatuner\Installer\Splatuner Installer.exe 
+Adding temporary file(s) to EXE 
+C:\Users\Zacharia\AppData\Local\Temp\gentee01\english.lng 4/13/2021 12:01:11 PM 3883  46.25%
+D:\Splatuner\Icons\iconmain.gif 4/9/2021 12:16:09 PM 780  98.46%
+D:\Splatuner\Icons\logocolors.jpg 4/9/2021 10:58:26 AM 1862316  100.00%
+Build setup file: C:\Users\Zacharia\AppData\Local\Temp\gentee01\uninstall.exe 
+Adding uninstall file(s) to EXE 
+Getting list of files 
+Packing files... 
+================================ 
+D:\Splatuner\Executables\Splatuner Terminal.bat 4/13/2021 11:35:24 AM 3736  44.08%
+D:\Splatuner\Icons\iconmain.gif 4/9/2021 12:16:09 PM 780  98.97%
+D:\Splatuner\Icons\iconmain.ico 4/9/2021 10:59:06 AM 4286  52.09%
+D:\Splatuner\Icons\iconmain.jpg 4/9/2021 10:18:07 AM 163065  88.42%
+D:\Splatuner\Icons\iconmain.png 4/9/2021 10:11:03 AM 165062  100.00%
+D:\Splatuner\Icons\iconmain_del.ico 4/10/2021 2:16:26 PM 1929  100.46%
+D:\Splatuner\Icons\logocolors-min (1).png 4/9/2021 6:22:19 PM 659674  97.55%
+D:\Splatuner\Icons\logocolors.jpg 4/9/2021 10:58:26 AM 1862316  100.00%
+D:\Splatuner\Icons\logocolors.png 4/9/2021 6:21:40 PM 3105787  95.40%
+D:\Splatuner\Installer\Splatoon Voice Filter.ci 4/13/2021 12:01:07 PM 22335  17.53%
+D:\Splatuner\Installer\Splatoon Voice Filter.log 4/13/2021 12:01:18 PM 1458  37.31%
+D:\Splatuner\Tools\Vox\converted  12:00:00 AM 0  0.00%
+D:\Splatuner\Tools\Vox\recordings  12:00:00 AM 0  0.00%
+D:\Splatuner\Tools\Vox\ChangeLog.txt 2/22/2015 5:05:16 PM 83796  38.16%
+D:\Splatuner\Tools\Vox\libflac-8.dll 12/2/2014 6:34:08 AM 284258  45.59%
+D:\Splatuner\Tools\Vox\libgcc_s_sjlj-1.dll 12/3/2014 6:07:22 PM 474449  29.99%
+D:\Splatuner\Tools\Vox\libgomp-1.dll 12/3/2014 6:07:36 PM 424566  35.40%
+D:\Splatuner\Tools\Vox\libid3tag-0.dll 6/24/2014 9:30:16 AM 73559  37.15%
+D:\Splatuner\Tools\Vox\libogg-0.dll 6/7/2014 8:15:00 AM 27423  36.01%
+D:\Splatuner\Tools\Vox\libpng16-16.dll 6/7/2014 8:19:08 AM 211237  50.26%
+D:\Splatuner\Tools\Vox\libsox-3.dll 2/22/2015 5:05:10 PM 2349388  36.09%
+D:\Splatuner\Tools\Vox\libssp-0.dll 12/3/2014 6:07:34 PM 73555  31.18%
+D:\Splatuner\Tools\Vox\libvorbis-0.dll 6/7/2014 8:17:46 AM 171087  51.95%
+D:\Splatuner\Tools\Vox\libvorbisenc-2.dll 6/7/2014 8:17:46 AM 567578  17.85%
+D:\Splatuner\Tools\Vox\libvorbisfile-3.dll 6/7/2014 8:17:46 AM 38203  39.31%
+D:\Splatuner\Tools\Vox\libwavpack-1.dll 6/7/2014 8:55:44 AM 157861  46.26%
+D:\Splatuner\Tools\Vox\libwinpthread-1.dll 12/15/2014 2:52:44 PM 54131  45.78%
+D:\Splatuner\Tools\Vox\LICENSE.GPL.txt 2/22/2015 5:05:16 PM 18326  40.39%
+D:\Splatuner\Tools\Vox\README.txt 2/22/2015 5:05:16 PM 8073  42.82%
+D:\Splatuner\Tools\Vox\README.win32.txt 2/22/2015 5:05:16 PM 6010  36.10%
+D:\Splatuner\Tools\Vox\sox.exe 2/22/2015 5:05:10 PM 213624  40.72%
+D:\Splatuner\Tools\Vox\sox.pdf 2/22/2015 5:05:16 PM 326565  46.24%
+D:\Splatuner\Tools\Vox\soxformat.pdf 2/22/2015 5:05:16 PM 64479  45.39%
+D:\Splatuner\Tools\Vox\soxi.exe 2/22/2015 5:05:10 PM 213624  0.01%
+D:\Splatuner\Tools\Vox\soxi.pdf 2/22/2015 5:05:16 PM 8836  37.59%
+D:\Splatuner\Tools\Vox\wget.exe 2/22/2015 5:05:16 PM 401408  100.00%
+D:\Splatuner\Tools\Vox\wget.ini 2/22/2015 5:05:16 PM 4336  49.76%
+D:\Splatuner\Tools\Vox\zlib1.dll 6/7/2014 9:03:30 AM 85026  53.68%
+D:\Splatuner\Tools\splatoon 1 marie tide goes out.wav 2/13/2021 11:44:58 AM 11957252  84.28%
+D:\Splatuner\Tools\Splatuner Terminal.bat - Shortcut.lnk 4/11/2021 5:06:03 PM 1299  54.65%
+D:\Splatuner\GNU GENERAL PUBLIC LICENSE.txt 4/9/2021 7:03:01 PM 35688  38.28%
+================================ 
+All files: 40 [ 25688KB => 17955KB ] 
+File Size D:\Splatuner\Installer\Splatuner Installer.exe: 19890 KB 
+Finish Successful 4/13/2021 12:01:30 PM
