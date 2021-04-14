@@ -1,0 +1,3 @@
+Hi! This is the download site  an accurate voice changer that uses ACTUAL RESEARCH (woah) and EXPERIMENTATION (sampling). (Fun Fact: your voice's deeper tones are lost when you speak underwater.)
+
+THIS IS IN NO WAY DONE AND THERE DO SEEM TO BE [BETTER ALTERNATIVES](https://aminoapps.com/c/splatoon/page/blog/how-to-make-an-inkling-voice-on-audacity/eYeS_3ubz8wx76abjNplMXwR04pLl8p) AT THE MOMENT. DO NOT EXPECT TOO MUCH FROM THIS, IM BARELY OLD ENOUGH FOR DIGITAL CONSENT. ~~lol that was random~~
