@@ -5,9 +5,7 @@ THIS IS NOWHERE NEAR FINISHED AND ONLY HALF OF THE EFFECTS ARE ACTUALLY IN THIS 
 
 # Coming Soon! (But you can still test it!)
 
-Coming Soon! I just need to figure out how to get it off my computer... and the whole *user friendly* thing too, but yk lol
-
-You can dm me on discord at okmrsavage#0861 if you want to try it till then!
+The beta is out! y a y
 
 # about
 
