@@ -2,6 +2,7 @@ probably the first accurate Splatoon voice filter!
 
 THIS IS NOWHERE NEAR FINISHED AND ONLY HALF OF THE EFFECTS ARE ACTUALLY IN THIS VERSION SO EXPECT IT TO SOUND BAD
 (v0.0.3 has all effects, but are not tuned. More may be added.)
+also see the website i have no idea how i made it or hw to edit it but its there
 
 # Coming Soon! (But you can still test it!)
 
@@ -23,3 +24,7 @@ woah thats the most parentheses ive ever used
 Alpha testers:
 
   Jachar7543
+  
+Almost alpha testers:
+
+  -Michael+
