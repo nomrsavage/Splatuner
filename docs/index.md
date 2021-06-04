@@ -53,6 +53,9 @@ Now input the name and extension. (see [SoX Manual](http://sox.sourceforge.net/s
 
 > You can convert the .wav to another file format (such as back to .ogg) in a wonderful program like [audacity](https://www.audacityteam.org/) or a [cheap online converter ~~that will destroy the quality~~](https://cloudconvert.com/).
 
+
+> The audio is automatically made available for SFM! yw lol
+
 ## oh yeah the rec function
 so uh...... just type rec and input how long you want to record
 then wait 3 seconds for it to start recording for however long you set it
