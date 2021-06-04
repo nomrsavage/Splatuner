@@ -19,7 +19,7 @@ Welcome to Splatuner! This is one of my first big projects as a developer and I 
 
 ## About
 I was looking into audacity macros a little while back, and thought: "This is literally an audio editor that can do things automatically. Why dont I make a Splatoon voice changer?? And so it begun. For a few weeks I was researching audio and what makes your voice iconic when it is underwater. 
-> Fun Fact: your voice's deeper tones are lost when you speak underwater.)
+> Fun Fact: your voice's deeper tones are lost when you speak underwater.
 
 And then I thought; why not make it available to the public?? I asked the community and everyone I asked told me to code it myself because it would be cooler and stuff. I hate you. All of you. But I love yall so much, I cant turn a request away. and so I haven't. and so
 
