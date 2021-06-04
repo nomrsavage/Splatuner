@@ -1,3 +1,9 @@
+# Download
+Download [here](https://github.com/okmrsavageYT/Splatuner/releases) And choose the latest release. **Discalaimer:** *Only available for windows 10.*
+
+
+# Introduction
+
 Hi! This is the download site for an accurate splatoon voice changer that uses ACTUAL RESEARCH (woah) and EXPERIMENTATION (sampling). (Fun Fact: your voice's deeper tones are lost when you speak underwater.)
 
 # Example:
