@@ -30,5 +30,8 @@ Ok! Now to use it! This is the part where I lose my patience and grammar at the 
 
 > This guide is meant for v0.0.5.5, and may not work for future versions. It's quite simple really, so you shouldn't have a hard time figuring it out before you've see it.
 
-1. First were going to input our I/O location. This is where the input AND output are located. I did that for simplicity. I'm well aware its cheap lol ![example I/O location](https://github.com/okmrsavageYT/Splatuner/blob/releases/assets/Screenshot%202021-06-04%20121802.png)
-2. 
+1. First were going to input our I/O location. This is where the input AND output are located. I did that for simplicity. I'm well aware its cheap lol![example I/O location](https://github.com/okmrsavageYT/Splatuner/blob/releases/assets/Screenshot%202021-06-04%20121802.png?raw=true)
+
+> Make sure there is a \ at the end! 
+
+2. ![Example name](https://github.com/okmrsavageYT/Splatuner/blob/releases/assets/Screenshot%202021-06-04%20122051.png?raw=true)
