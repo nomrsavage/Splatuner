@@ -1,0 +1,3 @@
+Wahwah:Depth="10" Freq="2.5" Gain="-4" Offset="37" Phase="230" Resonance="6.5"
+Phaser:Depth="201" DryWet="255" Feedback="0" Freq="2.2" Gain="-6" Phase="190" Stages="2"
+Reverb:Delay="10" DryGain="-9" HfDamping="100" Reverberance="30" RoomSize="0" StereoWidth="100" ToneHigh="100" ToneLow="55" WetGain="2" WetOnly="0"

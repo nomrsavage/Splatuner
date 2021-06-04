@@ -3,13 +3,13 @@
    <autoclose >1</>
    <compname >okmrsavage</>
    <produrl >https://github.com/okmrsavageYT/Splatuner/</>
-   <ver >0.0.4.0</>
+   <ver >0.0.5.4 PUBLIC BETA</>
    <supurl >https://github.com/okmrsavageYT/Splatuner/discussions</>
    <updurl >https://github.com/okmrsavageYT/Splatuner/releases</>
    <dlgfont >arial</>
-   <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+   <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
    <dlgfontsize >s9</>
-   <output >D:\Splatuner\Installer</>
+   <output >D:\projects\Splatuner\Installer</>
    <exename >Splatuner Installer.exe</>
    <beffile ></>
    <aftfile ></>
@@ -103,25 +103,25 @@
                   <desc ></>
                   <buttons >auto</>
                   <design >head</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
                   <head >Thanks for Installing!</>
-                  <headtext >i still dont beleive i made this - the entire community exploded when i announced it</>
+                  <headtext >i still dont believe i made this - the entire community exploded when i announced it</>
                   <dlgtext >Thanks a lot for installing this! I'm really sorry, but you do have to go through a quick setup proccess... I mean, I tried to pack it all into one executable...
 
-OPEN BETA DISTRIBUTION</>
+PUBLIC BETA DISTRIBUTION</>
                   <if ></>
                </>
                <_ id = dlglic disabled = 1 >
                   <desc ></>
-                  <file >D:\Splatuner\GNU GENERAL PUBLIC LICENSE.txt</>
+                  <file >D:\projects\Splatuner\GNU GENERAL PUBLIC LICENSE.txt</>
                   <print >0</>
                   <iagree >radio</>
                   <buttons >pnc</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows >
                         <_ >
@@ -140,7 +140,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >auto</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <chlist >
                      <rows ></>
                   </>
@@ -164,12 +164,12 @@ OPEN BETA DISTRIBUTION</>
                         <solid >1</>
                         <path >inst</>
                         <custpath ></>
-                        <ifexist >overnewer</>
+                        <ifexist >over</>
                         <if ></>
                         <srclist >
                            <rows rel = unpack >
                               <_ >
-                                 <filename >D:\Splatuner</>
+                                 <filename >D:\projects\Splatuner</>
                                  <recurse >1</>
                                  <justfile >0</>
                                  <emptydir >1</>
@@ -187,8 +187,8 @@ OPEN BETA DISTRIBUTION</>
                         <shpath >comdesk</>
                         <shfile >Splatuner</>
                         <path >inst</>
-                        <file >Splatuner\Executables\Splatuner Terminal.bat</>
-                        <icon >D:\Splatuner\Icons\iconmain.ico</>
+                        <file >D:\projects\Splatuner\Splatuner Terminal.batt</>
+                        <icon >D:\projects\Splatuner\Icons\iconmain.ico</>
                         <cmdline ></>
                         <comment ></>
                         <work >inst</>
@@ -197,7 +197,7 @@ OPEN BETA DISTRIBUTION</>
                         <runasadmin >1</>
                         <if ></>
                      </>
-                     <_ tag = 0 id = shlist >
+                     <_ tag = 0 id = shlist disabled = 1 >
                         <desc ></>
                         <shlist >
                            <rows ></>
@@ -205,9 +205,9 @@ OPEN BETA DISTRIBUTION</>
                      </>
                      <_ id = unar disabled = 0 >
                         <desc ></>
-                        <name ></>
+                        <name >Splatuner</>
                         <path >inst</>
-                        <ifile ></>
+                        <ifile >D:\projects\Splatuner\Icons\iconmain_del.ico</>
                         <estsize ></>
                         <forcu >0</>
                      </>
@@ -219,7 +219,7 @@ OPEN BETA DISTRIBUTION</>
                   <auto >1</>
                   <buttons >nc</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
@@ -232,7 +232,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >c</>
                   <design >head</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <chlist >
                      <rows ></>
                   </>
@@ -244,10 +244,88 @@ OPEN BETA DISTRIBUTION</>
                   <dlgtext >Thanks once again!</>
                   <if ></>
                </>
+               <_ tag = 0 id = fileinfo >
+                  <desc ></>
+                  <path >inst</>
+                  <name ></>
+                  <var >fi</>
+               </>
+               <_ tag = 0 id = unpack >
+                  <desc ></>
+                  <comptype >default</>
+                  <ratio >r5</>
+                  <solid >1</>
+                  <path >inst</>
+                  <custpath ></>
+                  <ifexist >overnewer</>
+                  <if ></>
+                  <srclist >
+                     <rows ></>
+                  </>
+                  <varlist >
+                     <rows ></>
+                  </>
+               </>
+               <_ tag = 0 id = tempfiles >
+                  <desc ></>
+                  <templist >
+                     <rows ></>
+                  </>
+               </>
+               <_ tag = 0 id = exit >
+                  <desc ></>
+                  <extype >exit</>
+                  <code >1</>
+                  <msg ></>
+                  <if ></>
+               </>
+               <_ tag = 0 id = message expanded = 0 >
+                  <children >
+                     <_ tag = 0 id = empty ></>
+                  </>
+                  <desc ></>
+                  <type >info</>
+                  <caption ></>
+                  <text ></>
+                  <btns >def</>
+                  <help >0</>
+                  <hcmd ></>
+                  <defbtn >def</>
+                  <msgmode >def</>
+                  <resvar >msgret</>
+                  <msgif >def</>
+                  <length ></>
+                  <if ></>
+               </>
+               <_ tag = 0 id = background >
+                  <desc ></>
+                  <bgcaption ></>
+                  <bgcapdis >0</>
+                  <head ></>
+                  <font >Times</>
+                  <height >36</>
+                  <bold >0</>
+                  <italic >0</>
+                  <backcol >0x0000FF</>
+                  <textcol >0xFFFFFF</>
+                  <shadecol >0x888888</>
+                  <uniform >0</>
+                  <foot ></>
+                  <flalign >2</>
+                  <ffont >Segoe UI</>
+                  <fheight >s8</>
+                  <fbold >0</>
+                  <fitalic >0</>
+                  <ftextcol ></>
+                  <backbmp ></>
+                  <stretchback >0</>
+                  <bgfull >0</>
+                  <bgclose >0</>
+               </>
             </>
-            <icofile >D:\Splatuner\Icons\iconmain.ico</>
+            <icofile >D:\projects\Splatuner\Icons\iconmain.ico</>
             <resfile ></>
-            <leftimg >D:\Splatuner\Icons\iconmain.gif</>
+            <leftimg >D:\projects\Splatuner\Icons\iconmain.gif</>
             <caption ></>
             <verinfo >1</>
             <noadmin >0</>
@@ -265,7 +343,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >c</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
@@ -283,7 +361,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >nc</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
@@ -297,7 +375,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >nc</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
@@ -310,7 +388,7 @@ OPEN BETA DISTRIBUTION</>
                   <desc ></>
                   <buttons >nc</>
                   <design >left</>
-                  <headlogo >D:\Splatuner\Icons\iconmain.gif</>
+                  <headlogo >D:\projects\Splatuner\Icons\iconmain.gif</>
                   <varlist >
                      <rows ></>
                   </>
@@ -321,9 +399,9 @@ OPEN BETA DISTRIBUTION</>
                   <if ></>
                </>
             </>
-            <unicon >D:\Splatuner\Icons\iconmain_del.ico</>
+            <unicon >D:\projects\Splatuner\Icons\iconmain_del.ico</>
             <unresfile ></>
-            <leftimg >D:\Splatuner\Icons\iconmain.gif</>
+            <leftimg >D:\projects\Splatuner\Icons\iconmain.gif</>
             <caption ></>
             <noadmin >0</>
             <priv >0</>
@@ -334,62 +412,6 @@ OPEN BETA DISTRIBUTION</>
       <children >
          <update id = update expanded = 2 >
             <children >
-               <_ tag = 0 id = varset >
-                  <desc ></>
-                  <varlist >
-                     <rows >
-                        <_ >
-                           <varname >silent</>
-                           <value >0</>
-                           <if ></>
-                           <subst ></>
-                           <super ></>
-                           <comm ></>
-                        </>
-                        <_ >
-                           <varname >param</>
-                           <value >#updatexml#</>
-                           <if ></>
-                           <subst ></>
-                           <super ></>
-                           <comm ></>
-                        </>
-                     </>
-                  </>
-               </>
-               <_ tag = 0 id = if expanded = 2 >
-                  <children >
-                     <_ tag = 0 id = varset >
-                        <desc ></>
-                        <varlist >
-                           <rows >
-                              <_ >
-                                 <varname >silent</>
-                                 <value >1</>
-                                 <if ></>
-                                 <subst ></>
-                                 <super ></>
-                                 <comm ></>
-                              </>
-                           </>
-                        </>
-                     </>
-                  </>
-                  <desc ></>
-                  <else ></>
-                  <condlist >
-                     <rows >
-                        <_ >
-                           <varname ></>
-                           <iftype >ifcommand</>
-                           <not >0</>
-                           <value >-s</>
-                           <orand >and</>
-                           <comm ></>
-                        </>
-                     </>
-                  </>
-               </>
                <_ tag = 0 id = download >
                   <desc ></>
                   <url >https://github.com/fart-source/Splatoon-Voice-Filter/releases/latest/package.zip</>
@@ -401,7 +423,7 @@ OPEN BETA DISTRIBUTION</>
                            <custpath ></>
                            <file >update.ini</>
                            <if ></>
-                           <ifexist ></>
+                           <ifexist >over</>
                            <var ></>
                            <comm ></>
                         </>
@@ -571,11 +593,11 @@ OPEN BETA DISTRIBUTION</>
                   <name >lowerver</>
                </>
             </>
-            <upicon >D:\audio thing\Icons\iconmain.ico</>
+            <upicon >D:\Splatuner\Icons\iconmain_update.ico</>
             <resfile ></>
-            <leftimg >D:\audio thing\Icons\iconmain.gif</>
+            <leftimg >D:\Splatuner\Icons\iconmain.gif</>
             <caption ></>
-            <noadmin >1</>
+            <noadmin >0</>
             <priv >0</>
          </>
       </>
@@ -584,7 +606,7 @@ OPEN BETA DISTRIBUTION</>
    <shfolder ></>
    <headcol ></>
    <headtext ></>
-   <headimg >D:\Splatuner\Icons\logocolors.jpg</>
+   <headimg >D:\projects\Splatuner\Icons\iconmain.jpg</>
    <stretchback >0</>
    <silentpar >-silent</>
    <custfont ></>

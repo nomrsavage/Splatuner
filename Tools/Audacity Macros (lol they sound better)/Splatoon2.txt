@@ -1,0 +1,6 @@
+High-passFilter:frequency="125" rolloff="dB6"
+ChangePitch:Percentage="87.164" SBSMS="1"
+Phaser:Depth="154" DryWet="180" Feedback="50" Freq="2" Gain="0" Phase="160" Stages="6"
+Wahwah:Depth="63" Freq="1.9" Gain="0" Offset="28" Phase="0" Resonance="2.5"
+Vibrato:depthlist="35" hzlist="20"
+LoudnessNormalization:DualMono="1" LUFSLevel="-23" NormalizeTo="0" RMSLevel="-20" StereoIndependent="0"
