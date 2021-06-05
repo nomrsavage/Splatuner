@@ -16,7 +16,7 @@ echo.
 
 
 rem looks'n stuffs
-title Splatuner v0.0.5.3 ALPHA
+title Splatuner v0.0.5.5 BETA
 
 rem i tried to get rid of the "Administrator:" but i couldn't lol
 net session >nul 2>&1
@@ -95,12 +95,12 @@ if "%rec%"=="true" set MasterInput=%InputLocation%
 
 rem proccess audio AKA mr krab's secret recipe to drowning kid noises
 
-sox %MasterInput% C:\temp\audio1.wav highpass 120
-sox C:\temp\audio1.wav C:\temp\audio2.wav pitch 200
-sox C:\temp\audio2.wav C:\temp\audio1.wav phaser 1 4 5 0.6 1 -t
-sox C:\temp\audio1.wav C:\temp\audio2.wav norm -15
-sox C:\temp\audio2.wav C:\temp\audio1.wav tremolo 20 35
-sox C:\temp\audio1.wav C:\temp\final.wav flanger 3 6 63 3
+sox -G %MasterInput% C:\temp\audio1.wav highpass 120
+sox -G C:\temp\audio1.wav C:\temp\audio2.wav pitch 200
+sox -G C:\temp\audio2.wav C:\temp\audio1.wav phaser 1 4 5 0.6 1 -t
+sox -G C:\temp\audio1.wav C:\temp\audio2.wav norm -15
+sox -G C:\temp\audio2.wav C:\temp\audio1.wav tremolo 20 35
+sox -G C:\temp\audio1.wav C:\temp\final.wav flanger 3 6 63 3
 
 sox C:\temp\final.wav %MasterOutput%
 
