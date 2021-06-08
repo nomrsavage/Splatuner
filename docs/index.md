@@ -32,7 +32,7 @@ And then I thought; why not make it available to the public?? I asked the commun
 ##  ok now how do i use it
 Ok! Now to use it! This is the part where I lose my patience and grammar at the same time.
 
-> This guide is meant for v0.0.5.5, and may not work for future versions. It's quite simple really, so you shouldn't have a hard time figuring it out before you've see it.
+> This guide is meant for v0.0.5.5, and may not work for future versions. It's quite simple really, so you shouldn't have a hard time figuring it out once you've see it.
 
 ## 1. 
 
