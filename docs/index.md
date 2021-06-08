@@ -1,6 +1,9 @@
 
 
-# Download
+# Splatuner Documentation
+cool! but give me the download first bc idc.
+
+## Download
 Download [here](https://github.com/okmrsavageYT/Splatuner/releases) And choose the latest release. 
 
 > **Disclaimer:** *Only available for windows 10.*
