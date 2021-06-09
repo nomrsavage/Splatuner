@@ -3,12 +3,14 @@
 instructions and documentation can be found [here](https://okmrsavageyt.github.io/Splatuner/).
 
 ## next up:
+> (not in repo yet, will be included with update)
 
-I have just realized that the icon I am using is copyrighted. I will replace it in the next update.
+[x] clipping
 
-The pitch. omg my ears.
+[ ] The pitch. omg my ears.
 
-~~clipping~~ (done, ready for update)
+[ ] I have just realized that the icon I am using is copyrighted. I will replace it in the next update.
+
 
 ## credits:
 
