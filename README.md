@@ -9,7 +9,7 @@ instructions and documentation can be found [here](https://okmrsavageyt.github.i
 
 [ ] The pitch. omg my ears.
 
-[ ] I have just realized that the icon I am using is copyrighted. I will replace it in the next update.
+[ ] I have just realized that the icon I am using is copyrighted. I will replace it in the next update. (this is big because a lot of places rreference the files so replacing might be hard)
 
 
 ## credits:
