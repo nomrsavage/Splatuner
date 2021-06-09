@@ -1,10 +1,14 @@
-f in the chat for the readme i accidentally deleted.
+# about
 
 instructions and documentation can be found [here](https://okmrsavageyt.github.io/Splatuner/).
 
+## next up:
 
+I have just realized that the icon I am using is copyrighted. I will replace it in the next update.
+The pitch. omg my ears.
+~~clipping~~ (done, ready for update)
 
-credits:
+## credits:
 
 Splatuner: not started, assigned to okmrsavage
 
