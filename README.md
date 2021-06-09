@@ -5,7 +5,9 @@ instructions and documentation can be found [here](https://okmrsavageyt.github.i
 ## next up:
 
 I have just realized that the icon I am using is copyrighted. I will replace it in the next update.
+
 The pitch. omg my ears.
+
 ~~clipping~~ (done, ready for update)
 
 ## credits:
