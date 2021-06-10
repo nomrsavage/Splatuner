@@ -42,7 +42,7 @@ I did that for simplicity. I'm well aware its cheap lol![example I/O location](h
 > Make sure there is a \ at the end! 
 
 ## 2.
-Now input the name and extension. (see [SoX Manual](http://sox.sourceforge.net/soxformat.html#:~:text=SoX%20can%20read%20and%20write,overriding%20the%20file%20type%2C%20e.g.) for more information on supported filetypes)
+**Now input the name and extension.** (see [SoX Manual](http://sox.sourceforge.net/soxformat.html#:~:text=SoX%20can%20read%20and%20write,overriding%20the%20file%20type%2C%20e.g.) for more information on supported filetypes)
 ![Example name](https://github.com/okmrsavageYT/Splatuner/blob/releases/assets/Screenshot%202021-06-04%20122051.png?raw=true)
 
 > You can also type rec to record. More info on that later. 
