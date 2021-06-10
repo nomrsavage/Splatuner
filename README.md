@@ -18,7 +18,7 @@ instructions and documentation can be found [here](https://okmrsavageyt.github.i
 
 Splatuner: not started, assigned to okmrsavage
 
-Splatuner Terminal by okmrsavage
+Splatuner Terminal: okmrsavage
 
 Alpha testers: Jachar7543
 
