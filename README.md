@@ -2,6 +2,8 @@
 
 instructions and documentation can be found [here](https://okmrsavageyt.github.io/Splatuner/).
 
+if your annoyingly impatient a download can be found [here](https://okmrsavageyt.github.io/Splatuner/download).
+
 ## next up:
 > (not in repo yet, will be included with update)
 
