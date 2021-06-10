@@ -5,7 +5,7 @@ instructions and documentation can be found [here](https://okmrsavageyt.github.i
 ## next up:
 > (not in repo yet, will be included with update)
 
-[x] clipping
+[x] clipping (fixed, some clipping still does occur. further investigation is required.
 
 [ ] The pitch. omg my ears.
 
