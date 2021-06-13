@@ -1,3 +1,5 @@
+the latest release doesnt even work lol
+
 # about
 
 instructions and documentation can be found [here](https://okmrsavageyt.github.io/Splatuner/).
