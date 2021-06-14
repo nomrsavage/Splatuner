@@ -1,4 +1,4 @@
-the latest release doesnt even work lol
+[Workaround to my stupidity](https://github.com/okmrsavageYT/Splatuner/issues/4#issue-920663046)
 
 # about
 
