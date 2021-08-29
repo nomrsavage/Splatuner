@@ -1,3 +1,11 @@
+rem update moment
+
+rem run %~dp0update.exe -s
+
+
+
+
+
 rem why are you looking in the source code lol
 
 @echo off
@@ -9,70 +17,67 @@ echo initializing...
 echo (btw just bc its not saying anything doesnt mean its frozen lol)
 
 
-rem add a barely noticable timeout to make it look cooler 😏
-timeout /nobreak /T 0 > NUL
-
 echo.
 
 
 rem looks'n stuffs
-title Splatuner v0.0.5.5 BETA
+title Splatuner v0.0.5.6
+
+
+rem read switches
+echo Reading preferences...
+call "%~dp0Executables\Switches\readswitches.bat"
+
 
 rem i tried to get rid of the "Administrator:" but i couldn't lol
-net session >nul 2>&1
-    if %errorLevel% == 0 (
+if not "%noadmin%"=="true" (
 
-        echo Elevation requirements met.
-    
-    ) else (
+	call "%~dp0Executables\checkadmin.bat"
 
-    	cls
-        echo ERROR: Elevation requirements not met. Try right clicking and running as administrator?
-		pause
-		exit
-    
-    )
+)
 
 
-rem this is where it tells me that you opened it and that the hours i slaved away making this are worth it. I hope you like it Livy :)
+rem this is where it tells me that you opened it and that the hours i slaved away making this are worth it. I hope you like it Livy :)  (these are analytics)
+
+rem check internet connection - imagine one day, probably the end of the world, google isnt there to uselessly ping? what a nightmare 😬
+call "%~dp0Executables\internetdiagnostic.bat"
+
 
 rem get ip ... just because i do it doesnt mean google doesnt do it. literally every site and almost every program keeps track of usage by ip. thats what its for anyway 🙄
 
-for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
+rem the test results came in. were analyzing them now...
+if "%internet%"=="true" (
 
-rem IMA FIRIN MAH LAZOOOR to discord lol
-"%~dp0\Tools\Analytics\Discord Webhook\DiscordSendWebhook.exe" -w https://discord.com/api/webhooks/844699221877325864/lSmrQn-bSwQx-WIuUV1daFOSLBGXAVUK2_DY29qoY1B6XJWoPM9ebjTw6FBl2Fw8MY2C -m "%PublicIP%"
+	rem congrats! the test results are positive! you have an internet connection! your free to watch dank memes, simp, and do... that.
+	for /f %%a in ('powershell Invoke-RestMethod api.ipify.org') do set PublicIP=%%a
 
-cd C:\
-mkdir temp
-cd %~dp0
+	rem IMA FIRIN MAH LAZOOOR to discord lol
 
-rem this is for vox
+	"%~dp0\Tools\Analytics\Discord Webhook\DiscordSendWebhook.exe" -w https://discord.com/api/webhooks/844699221877325864/lSmrQn-bSwQx-WIuUV1daFOSLBGXAVUK2_DY29qoY1B6XJWoPM9ebjTw6FBl2Fw8MY2C -m "%PublicIP%"
+
+		) else (
+
+				rem sorry to say, but the test results are negative. you cannot simp.
+				echo connection failed>>"%~dp0Logs\Analytics\analytics.txt"
+
+				)
+
+
+rem this is to let windows know vox exists
 set PATH=%~dp0\Tools\Vox;%PATH%
 cls
 
 
 rem user input
 
-
-rem input/output directory im too tired to make a joke
+rem input/output directory
 echo Please define the I/O location (ex: C:\temp\) SPACES WILL RESULT IN A SYNTAX ERROR (for now)
 set /p I/OLocation=">"
-if "%I/OLocation%"=="debug" (
 
-	if not "%debug%"=="true" (
-	
-		set debug=true
-		goto :initialize
 
-		) else (
 
-			echo debug mode already enabled!
-			pause
-			goto :initialize
+rem old debug code monument
 
-		)
-)
 
 
 rem wait what am i even supposed to proccesss... i cant spell...

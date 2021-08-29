@@ -3,7 +3,7 @@
    <autoclose >1</>
    <compname >okmrsavage</>
    <produrl >https://github.com/okmrsavageYT/Splatuner/</>
-   <ver >0.0.5.5 PUBLIC BETA</>
+   <ver >0.0.5.6</>
    <supurl >https://github.com/okmrsavageYT/Splatuner/discussions</>
    <updurl >https://github.com/okmrsavageYT/Splatuner/releases</>
    <dlgfont >arial</>
@@ -17,7 +17,7 @@
    <lang >english</>
    <addlang ></>
    <selfextr >1</>
-   <instpath ></>
+   <instpath >#progfiles#</>
    <voltype >nolimit</>
    <volsize ></>
    <volpattern >disk%i.pak</>
@@ -109,9 +109,7 @@
                   </>
                   <head >Thanks for Installing!</>
                   <headtext >i still dont believe i made this - the entire community exploded when i announced it</>
-                  <dlgtext >Thanks a lot for installing this! I'm really sorry, but you do have to go through a quick setup proccess... I mean, I tried to pack it all into one executable...
-
-PUBLIC BETA DISTRIBUTION</>
+                  <dlgtext >Thanks a lot for installing this! I'm really sorry, but you do have to go through a quick setup proccess...</>
                   <if ></>
                </>
                <_ id = dlglic disabled = 1 >
@@ -151,9 +149,9 @@ PUBLIC BETA DISTRIBUTION</>
                   <headtext >EXECUTE ORDER 66</>
                   <dlgtext >where do you wish to install?</>
                   <pathadd ></>
-                  <enforce >1</>
+                  <enforce >0</>
                   <if ></>
-                  <savepath >1</>
+                  <savepath >0</>
                </>
                <_ id = dlgprog expanded = 2 >
                   <children >
@@ -187,8 +185,8 @@ PUBLIC BETA DISTRIBUTION</>
                         <shpath >comdesk</>
                         <shfile >Splatuner</>
                         <path >inst</>
-                        <file >D:\projects\Splatuner\Splatuner Terminal.batt</>
-                        <icon >D:\projects\Splatuner\Icons\iconmain.ico</>
+                        <file >Splatuner\Splatuner Terminal.bat</>
+                        <icon >Splatuner\Icons\iconmain.ico</>
                         <cmdline ></>
                         <comment ></>
                         <work >inst</>
@@ -615,7 +613,7 @@ PUBLIC BETA DISTRIBUTION</>
    <upexe >update.exe</>
    <upurl ></>
    <upxml >update.ini</>
-   <upredir >https://github.com/okmrsavageYT/Splatuner/releases</>
+   <upredir >https://okmrsavageyt.github.io/Splatuner/download/</>
    <ignnotfound >0</>
    <tozip >0</>
    <zipfile ></>

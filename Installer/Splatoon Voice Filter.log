@@ -1,0 +1,82 @@
+
+Processing D:\projects\Splatuner\Installer\Splatoon Voice Filter.ci 6/10/2021 11:52:05 PM
+Log file: D:\projects\Splatuner\Installer\Splatoon Voice Filter.log 
+Generating Sources... 
+Compiling Gentee Sources... 
+Build setup file: D:\projects\Splatuner\Installer\Splatuner Installer.exe 
+Adding temporary file(s) to EXE 
+C:\Users\Zacharia\AppData\Local\Temp\gentee01\english.lng 6/10/2021 11:52:06 PM 3883  46.25%
+D:\projects\Splatuner\Icons\iconmain.gif 6/10/2021 9:07:06 AM 83  110.84%
+D:\projects\Splatuner\Icons\iconmain.jpg 4/9/2021 10:18:07 AM 163065  88.42%
+Build setup file: C:\Users\Zacharia\AppData\Local\Temp\gentee01\uninstall.exe 
+Adding uninstall file(s) to EXE 
+Getting list of files 
+Packing files... 
+================================ 
+D:\projects\Splatuner\Executables\;)\bruh.bat 5/25/2021 1:29:56 AM 103  95.14%
+D:\projects\Splatuner\Executables\;)\feedback.bat 5/25/2021 1:25:59 AM 82  85.36%
+D:\projects\Splatuner\Executables\;)\le what is dis.txt 5/25/2021 1:34:24 AM 325  71.38%
+D:\projects\Splatuner\Executables\Switches\README.md 6/10/2021 2:19:48 PM 1103  59.20%
+D:\projects\Splatuner\Executables\Switches\readswitches.bat 6/10/2021 11:48:44 PM 757  44.78%
+D:\projects\Splatuner\Executables\Switches\switches.txt 6/10/2021 11:50:07 PM 22  140.90%
+D:\projects\Splatuner\Executables\checkadmin.bat 6/10/2021 12:52:31 PM 352  72.72%
+D:\projects\Splatuner\Executables\internetdiagnostic.bat 6/9/2021 10:07:07 PM 185  82.70%
+D:\projects\Splatuner\Executables\nothing here lol.txt 5/25/2021 1:30:29 AM 104  93.26%
+D:\projects\Splatuner\Executables\portable debug.bat 6/4/2021 11:20:25 PM 295  53.22%
+D:\projects\Splatuner\Icons\iconmain.gif 6/10/2021 9:07:06 AM 83  110.84%
+D:\projects\Splatuner\Icons\iconmain.ico 6/10/2021 4:03:44 PM 1656  93.11%
+D:\projects\Splatuner\Icons\iconmain.jpg 4/9/2021 10:18:07 AM 163065  88.42%
+D:\projects\Splatuner\Icons\iconmain.png 6/10/2021 1:40:18 AM 124044  89.37%
+D:\projects\Splatuner\Icons\iconmain_del.ico 4/10/2021 2:16:26 PM 1929  100.46%
+D:\projects\Splatuner\Icons\iconmain_update.ico 4/13/2021 4:27:05 PM 1935  100.46%
+D:\projects\Splatuner\Icons\logocolors-min (1).png 4/9/2021 6:22:19 PM 659674  97.55%
+D:\projects\Splatuner\Icons\logocolors.jpg 4/9/2021 10:58:26 AM 1862316  100.00%
+D:\projects\Splatuner\Icons\logocolors.png 6/10/2021 1:36:31 AM 1224795  100.00%
+D:\projects\Splatuner\Icons\logocolors.psd 6/10/2021 1:36:59 AM 4483150  40.57%
+D:\projects\Splatuner\Icons\poster.png 6/10/2021 1:11:36 AM 8308989  10.31%
+D:\projects\Splatuner\Icons\poster1.png 6/10/2021 4:01:34 PM 94490  87.30%
+D:\projects\Splatuner\Installer\Splatoon Voice Filter.ci 6/10/2021 11:52:03 PM 23013  16.17%
+D:\projects\Splatuner\Installer\Splatoon Voice Filter.log 6/10/2021 11:52:16 PM 2693  32.38%
+D:\projects\Splatuner\Logs\Analytics  12:00:00 AM 0  0.00%
+D:\projects\Splatuner\Logs\mmm folder is yes.txt 6/10/2021 12:28:31 AM 111  59.45%
+D:\projects\Splatuner\Tools\Analytics\Discord Webhook\DiscordSendWebhook.exe 5/19/2021 5:05:46 PM 988672  56.99%
+D:\projects\Splatuner\Tools\Analytics\Discord Webhook\readme.txt 5/19/2021 5:05:46 PM 4512  30.36%
+D:\projects\Splatuner\Tools\Analytics\WARNING.txt 6/10/2021 3:25:39 PM 1089  65.10%
+D:\projects\Splatuner\Tools\Audacity Macros (lol they sound better)\Splatoon (rackel).txt 4/22/2021 3:58:42 PM 319  74.29%
+D:\projects\Splatuner\Tools\Audacity Macros (lol they sound better)\Splatoon.txt 4/22/2021 3:58:37 PM 395  65.82%
+D:\projects\Splatuner\Tools\Audacity Macros (lol they sound better)\Splatoon1.txt 4/22/2021 3:58:46 PM 396  11.11%
+D:\projects\Splatuner\Tools\Audacity Macros (lol they sound better)\Splatoon2.txt 4/22/2021 3:58:49 PM 396  11.61%
+D:\projects\Splatuner\Tools\Audacity Macros (lol they sound better)\SplatoonRE.txt 4/22/2021 3:58:52 PM 395  10.37%
+D:\projects\Splatuner\Tools\Vox\converted  12:00:00 AM 0  0.00%
+D:\projects\Splatuner\Tools\Vox\recordings  12:00:00 AM 0  0.00%
+D:\projects\Splatuner\Tools\Vox\ChangeLog.txt 2/22/2015 5:05:16 PM 83796  38.16%
+D:\projects\Splatuner\Tools\Vox\libflac-8.dll 12/2/2014 6:34:08 AM 284258  45.59%
+D:\projects\Splatuner\Tools\Vox\libgcc_s_sjlj-1.dll 12/3/2014 6:07:22 PM 474449  29.99%
+D:\projects\Splatuner\Tools\Vox\libgomp-1.dll 12/3/2014 6:07:36 PM 424566  35.40%
+D:\projects\Splatuner\Tools\Vox\libid3tag-0.dll 6/24/2014 9:30:16 AM 73559  37.15%
+D:\projects\Splatuner\Tools\Vox\libogg-0.dll 6/7/2014 8:15:00 AM 27423  36.01%
+D:\projects\Splatuner\Tools\Vox\libpng16-16.dll 6/7/2014 8:19:08 AM 211237  50.26%
+D:\projects\Splatuner\Tools\Vox\libsox-3.dll 2/22/2015 5:05:10 PM 2349388  36.09%
+D:\projects\Splatuner\Tools\Vox\libssp-0.dll 12/3/2014 6:07:34 PM 73555  31.18%
+D:\projects\Splatuner\Tools\Vox\libvorbis-0.dll 6/7/2014 8:17:46 AM 171087  51.95%
+D:\projects\Splatuner\Tools\Vox\libvorbisenc-2.dll 6/7/2014 8:17:46 AM 567578  17.85%
+D:\projects\Splatuner\Tools\Vox\libvorbisfile-3.dll 6/7/2014 8:17:46 AM 38203  39.31%
+D:\projects\Splatuner\Tools\Vox\libwavpack-1.dll 6/7/2014 8:55:44 AM 157861  46.26%
+D:\projects\Splatuner\Tools\Vox\libwinpthread-1.dll 12/15/2014 2:52:44 PM 54131  45.78%
+D:\projects\Splatuner\Tools\Vox\LICENSE.GPL.txt 2/22/2015 5:05:16 PM 18326  40.39%
+D:\projects\Splatuner\Tools\Vox\README.txt 2/22/2015 5:05:16 PM 8073  42.82%
+D:\projects\Splatuner\Tools\Vox\README.win32.txt 2/22/2015 5:05:16 PM 6010  36.10%
+D:\projects\Splatuner\Tools\Vox\sox.exe 2/22/2015 5:05:10 PM 213624  40.72%
+D:\projects\Splatuner\Tools\Vox\sox.pdf 2/22/2015 5:05:16 PM 326565  46.24%
+D:\projects\Splatuner\Tools\Vox\soxformat.pdf 2/22/2015 5:05:16 PM 64479  45.39%
+D:\projects\Splatuner\Tools\Vox\soxi.exe 2/22/2015 5:05:10 PM 213624  0.01%
+D:\projects\Splatuner\Tools\Vox\soxi.pdf 2/22/2015 5:05:16 PM 8836  37.59%
+D:\projects\Splatuner\Tools\Vox\wget.exe 2/22/2015 5:05:16 PM 401408  100.00%
+D:\projects\Splatuner\Tools\Vox\wget.ini 2/22/2015 5:05:16 PM 4336  49.76%
+D:\projects\Splatuner\Tools\Vox\zlib1.dll 6/7/2014 9:03:30 AM 85026  53.68%
+D:\projects\Splatuner\GNU GENERAL PUBLIC LICENSE.txt 4/9/2021 7:03:01 PM 35688  36.63%
+D:\projects\Splatuner\Splatuner Terminal.bat 6/10/2021 11:51:48 PM 5149  43.19%
+================================ 
+All files: 61 [ 24014KB => 9611KB ] 
+File Size D:\projects\Splatuner\Installer\Splatuner Installer.exe: 9867 KB 
+Finish Successful 6/10/2021 11:52:20 PM
