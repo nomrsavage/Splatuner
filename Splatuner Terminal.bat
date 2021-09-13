@@ -143,6 +143,7 @@ if not "%debug%"=="true" (
 		)
 
 exit
+goto :INTERNALERROR
 echo wait your not supposed to see this! close this window before it damages your files!!
 :infiniloop
 timeout /nobreak /T 10 > NUL
@@ -153,7 +154,7 @@ pause
 echo WE COULDNT STOP IT AHHHHHHHHHHHHHHH WERE ALL GONNA DIE
 goto :infiniloop
 pause
-
+goto :INTERNALERROR
 
 :rec
 
