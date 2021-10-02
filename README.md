@@ -1,3 +1,6 @@
+this sounds like TRASH compared to what i have coming up :)
+(its not *that* bad as of now, but dam do i have a lot in store)
+
 [Workaround to my stupidity](https://github.com/okmrsavageYT/Splatuner/issues/4#issue-920663046)
 
 # about
