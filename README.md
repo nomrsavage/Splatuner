@@ -12,13 +12,13 @@ if your annoyingly impatient a download can be found [here](https://okmrsavageyt
 ## next up:
 > (not in repo yet, will be included with update)
 
-[x] clipping (fixed, some clipping still does occur. further investigation is required. marked done for now)
+[x] clipping (although marked as fixed, some clipping still does occur. further investigation is required. marked done for now)
 
-[ ] The pitch. omg my ears.
+[ ] ~~The pitch. omg my ears.~~ uh no. not the pitch. idiot. but there are things that are kinda related to pitch that need fixing
 
-[-] I have just realized that the icon I am using is copyrighted. I will replace it in the next update. (this is big because a lot of places reference the files so replacing might be hard)
+[-] I have just realized that the icon I am using is copyrighted. I will replace it in the next major update. ~~(this is big because a lot of places reference the files so replacing might be hard)~~ (HAHA SCREW YOU INSTALLER this may not be as hard)
 
-[-] Functionality switches to control quality and automation. Kind of like sfm startup commands.
+[-] Functionality switches to control quality and automation. Kinda like additional command line arguments, but within a text file.
 
 
 ## credits:
