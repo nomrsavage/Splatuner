@@ -1,0 +1,7 @@
+Welcome to "How to Compile"
+
+This file will explain how to compile most of the files found here.
+
+Splatuner Terminal
+
+you dont. its literally a batch file

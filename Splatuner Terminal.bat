@@ -6,8 +6,6 @@ rem run %~dp0update.exe -s
 
 
 
-rem why are you looking in the source code lol
-
 @echo off
 cls
 
@@ -21,7 +19,7 @@ echo.
 
 
 rem looks'n stuffs
-title Splatuner v0.0.5.6
+title Splatuner v0.0.6.0
 
 
 rem read switches
@@ -29,7 +27,7 @@ echo Reading preferences...
 call "%~dp0Executables\Switches\readswitches.bat"
 
 
-rem i tried to get rid of the "Administrator:" but i couldn't lol
+rem i tried to get rid of the "Administrator:" in the window title but i couldn't lol
 if not "%noadmin%"=="true" (
 
 	call "%~dp0Executables\checkadmin.bat"
@@ -37,7 +35,8 @@ if not "%noadmin%"=="true" (
 )
 
 
-rem this is where it tells me that you opened it and that the hours i slaved away making this are worth it. I hope you like it Livy :)  (these are analytics)
+
+rem this is where it tells me that you opened it and that the hours i slaved away making this are worth it. (these are analytics)
 
 rem check internet connection - imagine one day, probably the end of the world, google isnt there to uselessly ping? what a nightmare 😬
 call "%~dp0Executables\internetdiagnostic.bat"
@@ -63,8 +62,8 @@ if "%internet%"=="true" (
 				)
 
 
-rem this is to let windows know vox exists
-set PATH=%~dp0\Tools\Vox;%PATH%
+rem this is to let windows know sox exists
+set PATH=%~dp0\Tools\Sox;%PATH%
 cls
 
 
@@ -101,16 +100,23 @@ if "%rec%"=="true" set MasterInput=%InputLocation%
 rem proccess audio AKA mr krab's secret recipe to drowning kid noises
 
 sox -G %MasterInput% C:\temp\audio1.wav highpass 120
-sox -G C:\temp\audio1.wav C:\temp\audio2.wav pitch 200
+sox -G C:\temp\audio1.wav C:\temp\audio2.wav pitch 100
 sox -G C:\temp\audio2.wav C:\temp\audio1.wav phaser 1 4 5 0.6 1 -t
 sox -G C:\temp\audio1.wav C:\temp\audio2.wav norm -15
 sox -G C:\temp\audio2.wav C:\temp\audio1.wav tremolo 20 35
 sox -G C:\temp\audio1.wav C:\temp\final.wav flanger 3 6 63 3
 
-sox C:\temp\final.wav %MasterOutput%
+if not "%sfm%"=="true" (
 
+	sox C:\temp\final.wav %MasterOutput%
 
-rem so i recorded and i want the before and after so i can put it on tiktok, but i have the after. give me the before!!!1!11!!1!
+		) else (
+	
+		sox C:\temp\final.wav %MasterOutput% -r 41k
+
+	)
+
+rem so i recorded and i want the before and after so i can put it on tiktok, but i only have the after. give me the before!!!1!11!!1!
 
 if "%rec%"=="true" (
 
@@ -169,7 +175,7 @@ echo How long do you wish to record? (seconds)
 set /p RecLength=">"
 echo.
 
-sox -t waveaudio -d C:\temp\audio_raw.wav trim 3 %RecLength%
+sox -t waveaudio -d C:\temp\audio_raw.wav trim 0 %RecLength%
 
 set InputLocation="C:\temp\audio_raw.wav"
 
