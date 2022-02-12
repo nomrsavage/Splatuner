@@ -16,9 +16,9 @@ if your annoyingly impatient a download can be found [here](https://okmrsavageyt
 
 [ ] ~~The pitch. omg my ears.~~ uh no. not the pitch. idiot. but there are things that are kinda related to pitch that need fixing
 
-[-] I have just realized that the icon I am using is copyrighted. I will replace it in the next major update. ~~(this is big because a lot of places reference the files so replacing might be hard)~~ (HAHA SCREW YOU INSTALLER this may not be as hard)
+[-] I have just realized that the icon I am using is copyrighted. I will replace it as soon as i can... ~~(this is big because a lot of places reference the files so replacing might be hard)~~ (HAHA SCREW YOU INSTALLER this may not be as hard)
 
-[-] Functionality switches to control quality and automation. Kinda like additional command line arguments, but within a text file.
+[-] Functionality switches to control quality and automation. Kinda like additional command line arguments, but within a text file. (more will be added)
 
 
 ## credits:
