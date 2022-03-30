@@ -1,13 +1,13 @@
 this sounds like TRASH compared to what i have coming up :)
 (its not *that* bad as of now, but dam do i have a lot in store)
 
-[Workaround to my stupidity](https://github.com/okmrsavageYT/Splatuner/issues/4#issue-920663046)
+[Workaround to my stupidity](https://github.com/nomrsavage/Splatuner/issues/4#issue-920663046)
 
 # about
 
-instructions and documentation can be found [here](https://okmrsavageyt.github.io/Splatuner/).
+instructions and documentation can be found [here](https://nomrsavage.github.io/Splatuner/).
 
-if your annoyingly impatient a download can be found [here](https://okmrsavageyt.github.io/Splatuner/download).
+if your annoyingly impatient a download can be found [here](https://nomrsavage.github.io/Splatuner/download).
 
 ## next up:
 > (not in repo yet, will be included with update)
